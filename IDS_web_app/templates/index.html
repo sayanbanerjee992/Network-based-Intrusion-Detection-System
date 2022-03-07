@@ -1,0 +1,154 @@
+<html>
+<body>
+    <h3> Instrusion Detection System </h3>
+
+<div>
+  <form action="/predict" method="POST">
+    
+    <label for="duration ">duration </label>
+      <input type="text" id="duration " name="duration">
+      <br>
+
+    <label for="src_bytes">src_bytes</label>
+      <input type="text" id="src_bytes" name="src_bytes">
+      <br>
+	
+	  <label for="dst_bytes">dst_bytes</label>
+      <input type="text" id="dst_bytes" name="dst_bytes">
+      <br>
+	
+	  <label for="wrong_fragment">wrong_fragment</label>
+      <input type="text" id="wrong_fragment" name="wrong_fragment">
+      <br>
+	
+	  <label for="urgent">urgent</label>
+      <input type="text" id="urgent" name="urgent">
+      <br>
+	
+	  <label for="hot">hot</label>
+      <input type="text" id="hot" name="hot">
+      <br>
+	
+	  <label for="num_failed_logins">num_failed_logins</label>
+      <input type="text" id="num_failed_logins" name="num_failed_logins">
+      <br>
+
+    <label for="num_compromised">num_compromised</label>
+      <input type="text" id="num_compromised" name="num_compromised">
+      <br>
+	
+	  <label for="num_root">num_root</label>
+      <input type="text" id="num_root" name="num_root">
+      <br>
+    
+	  <label for="num_file_creations">num_file_creations</label>
+      <input type="text" id="num_file_creations" name="num_file_creations">
+      <br>
+  
+    <label for="num_shells">num_shells</label>
+      <input type="text" id="num_shells" name="num_shells">
+      <br>
+    
+	  <label for="num_access_files">num_access_files</label>
+      <input type="text" id="num_access_files" name="num_access_files">
+      <br>
+    
+	  <label for="num_outbound_cmds">num_outbound_cmds</label>
+      <input type="text" id="num_outbound_cmds" name="num_outbound_cmds">
+      <br>
+    
+	  <label for="count">count</label>
+       <input type="text" id="count" name="count">
+       <br>
+    
+	  <label for="srv_count">srv_count</label>
+      <input type="text" id="srv_count" name="srv_count">
+      <br>
+	
+    <label for="serror_rate">serror_rate</label>
+      <input type="text" id="serror_rate" name="serror_rate">
+      <br>
+      
+    <label for="srv_serror_rate">srv_serror_rate</label>
+      <input type="text" id="srv_serror_rate" name="srv_serror_rate">
+      <br>
+      
+    <label for="rerror_rate">rerror_rate</label>
+      <input type="text" id="rerror_rate" name="rerror_rate">
+      <br>
+      
+    <label for="srv_rerror_rate">srv_rerror_rate</label>
+      <input type="text" id="srv_rerror_rate" name="srv_rerror_rate">
+      <br>
+      
+    <label for="same_srv_rate">same_srv_rate</label>
+      <input type="text" id="same_srv_rate" name="same_srv_rate">
+      <br>
+
+    <label for="diff_srv_rate">diff_srv_rate</label>
+      <input type="text" id="diff_srv_rate" name="diff_srv_rate">
+      <br>
+      
+    <label for="srv_diff_host_rate">srv_diff_host_rate</label>
+      <input type="text" id="srv_diff_host_rate" name="srv_diff_host_rate">
+      <br>
+      
+    <label for="dst_host_count">dst_host_count</label>
+      <input type="text" id="dst_host_count" name="dst_host_count">
+      <br>
+      
+    <label for="dst_host_srv_count">dst_host_srv_count</label>
+      <input type="text" id="dst_host_srv_count" name="dst_host_srv_count">
+      <br>
+      
+    <label for="dst_host_same_srv_rate">dst_host_same_srv_rate</label>
+      <input type="text" id="dst_host_same_srv_rate" name="dst_host_same_srv_rate">
+      <br>
+      
+    <label for="dst_host_diff_srv_rate">dst_host_diff_srv_rate</label>
+      <input type="text" id="dst_host_diff_srv_rate" name="dst_host_diff_srv_rate">
+      <br>
+      
+    <label for="dst_host_same_src_port_rate">dst_host_same_src_port_rate</label>
+      <input type="text" id="dst_host_same_src_port_rate" name="dst_host_same_src_port_rate">
+      <br>
+
+    <label for="dst_host_srv_diff_host_rate">dst_host_srv_diff_host_rate</label>
+      <input type="text" id="dst_host_srv_diff_host_rate" name="dst_host_srv_diff_host_rate">
+      <br>
+      
+    <label for="dst_host_serror_rate">dst_host_serror_rate</label>
+      <input type="text" id="dst_host_serror_rate" name="dst_host_serror_rate">
+      <br>
+      
+    <label for="dst_host_srv_serror_rate">dst_host_srv_serror_rate</label>
+      <input type="text" id="dst_host_srv_serror_rate" name="dst_host_srv_serror_rate">
+      <br>
+      
+    <label for="dst_host_rerror_rate">dst_host_rerror_rate</label>
+      <input type="text" id="dst_host_rerror_rate" name="dst_host_rerror_rate">
+      <br>
+      
+    <label for="dst_host_srv_rerror_rate">dst_host_srv_rerror_rate</label>
+      <input type="text" id="dst_host_srv_rerror_rate" name="dst_host_srv_rerror_rate">
+      <br>
+
+    
+    <label for="protocol_type">protocol_type</label>
+      <input type="text" id="protocol_type" name="protocol_type">
+      <br>
+	
+	  <label for="service">service</label>
+      <input type="text" id="service" name="service">
+      <br>
+	
+	  <label for="flag">flag</label>
+      <input type="text" id="flag" name="flag">
+      <br>
+
+ 
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
